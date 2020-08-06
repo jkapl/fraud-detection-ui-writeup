@@ -7,6 +7,8 @@ When developing the front-end of a microservices architected application, develo
 
 OpenShift offers excellent developer tools and provides solutions for each of these requirements.
 
+![Fraud detection UI](images/ui-image.png) Iterate rapidly with React and Redux on OpenShift!
+
 One solution is to the use the `oc` command line tool. It provides an `oc new-app` command, which accepts a variety of resources, including source code, in order to automatically deploy an application consisting of labeled, consistent Kubernetes objects. Running the `oc new-app` command also generates OpenShift specific resources, including an image stream.
 
 ```
